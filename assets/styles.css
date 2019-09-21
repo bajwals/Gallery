@@ -89,7 +89,7 @@ html{
     display: block;
     position: fixed;
     right: 150;
-    border: 1px #ffffff solid;
+    border: 1px #ffffff none;
     padding: 10px;
     margin-bottom: 10px;
     margin-top: 10px;
@@ -99,7 +99,7 @@ html{
 .gallery {
     padding: 10px;
     margin: 10px;
-    border: 1px #ffffff solid;
+    border: 5px #09988c solid;
     float: left;
     width: 400px;
 
@@ -145,4 +145,10 @@ html{
 label{
     margin: auto;
 
+}
+
+.top-content{
+    display: block;
+    height: 500px;
+    width: 100%
 }
